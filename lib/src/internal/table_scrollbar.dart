@@ -47,7 +47,7 @@ class TableScrollbar extends StatelessWidget {
                 scrollbarTheme: ScrollbarThemeData(
                     crossAxisMargin: scrollTheme.margin,
                     thumbColor:
-                        WidgetStateProperty.all(scrollTheme.thumbColor))),
+                        MaterialStateProperty.all(scrollTheme.thumbColor))),
             child: Scrollbar(
                 controller: scrollController,
                 thickness: scrollTheme.thickness,
